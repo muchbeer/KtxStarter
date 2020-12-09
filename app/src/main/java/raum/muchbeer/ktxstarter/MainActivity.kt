@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun displayTyping () {
-        binding.apply {
-            txtDisplay.text = "Your name is: " + edtName.text
-        }
+        binding.apply {  txtDisplay.text = "Your name is: " + edtName.text }
     }
 }
